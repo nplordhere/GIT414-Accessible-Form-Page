@@ -3,9 +3,9 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<!-- 	-------- TO-DO: ADD META TAG AND NAME HERE -------- -->
+		<meta name="author" content="Nicholas Lord">
 		<title>Form Activity Solution File</title>
-		<!-- 	-------- TO-DO: ADD LINK TO CSS HERE -------- -->
+		<link rel="stylesheet" href="styles.css">
 	</head>
 
 	<body>
@@ -31,7 +31,12 @@
 					accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code
 					this in class, and please ask questions as they arise. Let's make a form!</p>
 
-				<!-- 	-------- TO-DO: ADD FORM HERE -------- -->
+				<form>
+					<label for="fullName">Full Name<span class="required">*</span></label>
+					<input type="text" id="fullName" name="fullName" required>
+					
+					<input type="submit" value="Submit">
+				</form>
 			</article>
 		</main>
 		<footer>
